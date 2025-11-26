@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chetan Prakash Kamble - Python Full Stack Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">CPK</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-container">
+                        <img src="profile1.png" alt="Chetan Prakash Kamble" class="hero-profile-img">
+                        <div class="hero-image-glow"></div>
+                    </div>
+                    <div class="hero-badge">🚀 Open to Work</div>
+                </div>
+                
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="hero-greeting">Hello, I'm</span>
+                        <span class="hero-name">Chetan Prakash Kamble</span>
+                        <span class="hero-role">Python Full Stack Developer</span>
+                    </h1>
+                    
+                    <p class="hero-description">
+                        Crafting digital experiences with <span class="tech-highlight">React.js</span>, 
+                        <span class="tech-highlight">Django</span>, and <span class="tech-highlight">Flask</span>. 
+                        Currently building enterprise solutions at <span class="company-highlight">BSOL Systems</span>.
+                    </p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Internships</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">8.4</span>
+                            <span class="stat-label">CGPA</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                                <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <span>Let's Connect</span>
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="https://github.com/chetankambleofficial" class="social-link" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/chetankambleofficial/" class="social-link" target="_blank">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="mailto:cpk9844@gmail.com" class="social-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate full-stack developer with expertise in Python, JavaScript, and modern web technologies. Currently pursuing Bachelor of Engineering in Computer Science with 8.4 CGPA.</p>
+                    <p>I have hands-on experience across multiple internships, including enterprise-level project development at BSOL Systems. I love building scalable applications and solving complex problems.</p>
+                    <div class="contact-details">
+                        <p><strong>Location:</strong> Hubballi, Karnataka</p>
+                        <p><strong>Email:</strong> cpk9844@gmail.com</p>
+                        <p><strong>Phone:</strong> +91 9844538521</p>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <span class="skill">
+                            <i class="devicon-python-plain"></i>
+                            Python
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-javascript-plain"></i>
+                            JavaScript
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-react-original"></i>
+                            React.js
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-django-plain"></i>
+                            Django
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-flask-original"></i>
+                            Flask
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-nodejs-plain"></i>
+                            Node.js
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-mongodb-plain"></i>
+                            MongoDB
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-mysql-plain"></i>
+                            SQL
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-tailwindcss-plain"></i>
+                            Tailwind CSS
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-googlecloud-plain"></i>
+                            GCP
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-amazonwebservices-original"></i>
+                            AWS
+                        </span>
+                        <span class="skill">
+                            <i class="devicon-git-plain"></i>
+                            Git
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-info">
+                        <h3>Bachelor of Engineering - Computer Science</h3>
+                        <h4>KLE Technological University</h4>
+                        <span class="education-date">2021 - 2025</span>
+                        <p>CGPA: 8.4/10</p>
+                        <div class="education-highlights">
+                            <span>Data Structures & Algorithms</span>
+                            <span>Database Management</span>
+                            <span>Software Engineering</span>
+                            <span>Web Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification">
+                    <div class="cert-icon">
+                        <i class="devicon-python-plain"></i>
+                    </div>
+                    <h3>Python Programming</h3>
+                    <p>Advanced Python concepts and frameworks</p>
+                    <span class="cert-issuer">Pentagon Space</span>
+                </div>
+                <div class="certification">
+                    <div class="cert-icon">
+                        <i class="devicon-react-original"></i>
+                    </div>
+                    <h3>MERN Stack Development</h3>
+                    <p>Modern React.js and component architecture</p>
+                    <span class="cert-issuer">Apponix academy</span>
+                </div>
+               
+                <div class="certification">
+                    <div class="cert-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 9.95 9 11 5.16-1.05 9-5.45 9-11V7l-10-5z"/>
+                        </svg>
+                    </div>
+                    <h3>Career Essentials in Generative AI</h3>
+                    <p>Advanced AI concepts and generative technologies</p>
+                    <span class="cert-issuer">Microsoft, 2025</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-content">
+                <div class="achievement">
+                    <div class="achievement-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <div class="achievement-info">
+                        <h3>National Hackathon Participant</h3>
+                        <p>Participated in 4+ national-level hackathons including SKV College, Sristi-2024, Shridevi, and KLE IT competitions</p>
+                        <div class="achievement-tags">
+                            <span>SKV College</span>
+                            <span>Sristi-2024</span>
+                            <span>Shridevi</span>
+                            <span>KLE IT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Frontend Developer Intern</h3>
+                        <h4>BSOL Systems</h4>
+                        <span class="timeline-date">Sep 2025 – Present</span>
+                        <p>Developing UI components for Port Connect, an enterprise maritime compliance platform using React.js, JavaScript, and Tailwind CSS.</p>
+                        <div class="tech-tags">
+                            <span>React.js</span>
+                            <span>JavaScript</span>
+                            <span>Tailwind CSS</span>
+                            <span>REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Python Full Stack Developer Intern</h3>
+                        <h4>Pentagon Space, Bengaluru</h4>
+                        <span class="timeline-date">Mar 2025 – Sep 2025</span>
+                        <p>Optimized SQL queries improving database performance by 30%. Integrated Python data workflows into Django backend services.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>Django</span>
+                            <span>SQL</span>
+                            <span>React.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>AI and Data Quality Analyst Intern</h3>
+                        <h4>Rooman Technologies</h4>
+                        <span class="timeline-date">Sep 2024 – Mar 2025</span>
+                        <p>Processed datasets using Python automation scripts. Automated validation pipelines, reducing manual errors by 30%.</p>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>NumPy</span>
+                            <span>Pandas</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <div class="project-info">
+                        <h3>Port Connect - Maritime Compliance Platform</h3>
+                        <p>Enterprise maritime compliance platform with 20+ production screens including Inspections, Audits, Dashboard, Certificates, and Vessel Management. Built at BSOL Systems.</p>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>JavaScript</span>
+                            <span>Tailwind CSS</span>
+                            <span>Node.js</span>
+                            <span>REST APIs</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.chetankamble.online" class="project-link">Portfolio</a>
+                            <a href="https://github.com/chetankambleofficial" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="project-info">
+                        <h3>Suraksha - AI Healthcare System</h3>
+                        <p>ML-powered healthcare system with 85% accuracy across 10+ diseases. Features AI chatbot using Gemini API and doctor appointment modules deployed on Google Cloud.</p>
+                        <div class="project-tech">
+                            <span>Flask</span>
+                            <span>Scikit-learn</span>
+                            <span>React.js</span>
+                            <span>GCP</span>
+                            <span>Gemini API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.chetankamble.online" class="project-link">Live Demo</a>
+                            <a href="https://github.com/chetankambleofficial" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project">
+                    <div class="project-info">
+                        <h3>Online Examination System</h3>
+                        <p>Real-time examination platform supporting 100+ concurrent exams with 99.9% uptime. Features secure dashboards, automated grading, and role-based access control.</p>
+                        <div class="project-tech">
+                            <span>React.js</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.chetankamble.online" class="project-link">Live Demo</a>
+                            <a href="https://github.com/chetankambleofficial" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Work Together</h2>
+            <div class="contact-content">
+                <p>I'm always interested in new opportunities and challenging projects. Let's discuss how we can work together to build something amazing.</p>
+                <div class="contact-info">
+                    <a href="mailto:cpk9844@gmail.com" class="contact-link">cpk9844@gmail.com</a>
+                    <a href="https://www.linkedin.com/in/chetankambleofficial/" class="contact-link">LinkedIn</a>
+                    <a href="https://github.com/chetankambleofficial" class="contact-link">GitHub</a>
+                    <a href="https://www.chetankamble.online" class="contact-link">Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>CPK</h3>
+                    <p>Building digital experiences with passion and precision.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#projects">Projects</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <a href="https://github.com/chetankambleofficial" target="_blank">GitHub</a>
+                        <a href="https://www.linkedin.com/in/chetankambleofficial/" target="_blank">LinkedIn</a>
+                        <a href="mailto:cpk9844@gmail.com">Email</a>
+                        <a href="tel:+919844538521">Phone</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Chetan Prakash Kamble. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
